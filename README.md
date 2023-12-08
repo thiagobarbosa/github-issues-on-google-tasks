@@ -19,7 +19,7 @@ Before using this app, make sure you have the following:
 
 ## Setup
 
-1. Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1YDIH2kyJrYJ29bEfck_ncZdb6BXDfU4d_uWqOYllDlo/edit#gid=0).
+1. Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1tfjtEV6lP3Z_Wr4f8_-ruMKJfYWW3JbZxfQydibudUE/edit#gid=0).
 This sheet will act like a simplified "database" for you to visualized all the tasks that were created based on your Github Issues, and your script will be connected to it.
 
 ![Google Sheet example](assets/image3.png)
