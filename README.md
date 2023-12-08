@@ -29,7 +29,7 @@ This sheet will act like a simplified "database" for you to visualized all the t
 
    ![Menu](assets/image1.png)
 
-Start by clickin on the menu `Setup -> Create setup`. You will be prompted to input the following 5 environment variables for the script to work:
+It might take up to a minute for this menu to appear. When it does, start by clickin on the menu `Setup -> Create setup`. You will be prompted to input the following 5 environment variables for the script to work:
 
 - Your Github key
 - Your Github username
