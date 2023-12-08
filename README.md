@@ -6,7 +6,7 @@ This is the source code for a Google Script that retrieves your GitHub issues an
 
 ## Features
 
-- Fetches your GitHub issues using the GitHub API and creates a new task on Google Tasks for each new GitHub issue.
+- Fetches your Issues using the GitHub API and creates a new task on Google Tasks for each new GitHub Issue.
 - Automatically syncs tasks with your GitHub issues to keep them up to date. When a issue is closed the task is automatically set as `completed`. The task also gets updated if you change its respected Github Issue title.
 - You can schedule the frequence for the task updates for every hour, every 4 hours or once a day.
 
@@ -14,7 +14,7 @@ This is the source code for a Google Script that retrieves your GitHub issues an
 
 Before using this app, make sure you have the following:
 
-- A GitHub token with access to the repository containing the issues you want to sync. The token needs to have the roles `repo` and `user`
+- A GitHub token with access to the repository containing the Issues you want to sync. The token needs to have the roles `repo` and `user`
 - A Google account.
 
 ## Setup
@@ -22,7 +22,10 @@ Before using this app, make sure you have the following:
 1. Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1YDIH2kyJrYJ29bEfck_ncZdb6BXDfU4d_uWqOYllDlo/edit#gid=0).
 This sheet will act like a simplified "database" for you to visualized all the tasks that were created based on your Github Issues, and your script will be connected to it.
 
-2. Inside your copied spreadsheet, you will see a custom menu called `🤖 Github Issues` like this:
+![Google Sheet example](assets/image3.png)
+*Example of a Google Sheet with the Google Tasks created based on your Github Issues.*
+
+1. Inside your copied spreadsheet, you will see a custom menu called `🤖 Github Issues` like this:
 
    ![Menu](assets/image1.png)
 
