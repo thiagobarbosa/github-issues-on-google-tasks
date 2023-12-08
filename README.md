@@ -25,7 +25,7 @@ This sheet will act like a simplified "database" for you to visualized all the t
 ![Google Sheet example](assets/image3.png)
 *Example of a Google Sheet with the Google Tasks created based on your Github Issues.*
 
-1. Inside your copied spreadsheet, you will see a custom menu called `🤖 Github Issues` like this:
+2. Inside your copied spreadsheet, you will see a custom menu called `🤖 Github Issues` like this:
 
    ![Menu](assets/image1.png)
 
