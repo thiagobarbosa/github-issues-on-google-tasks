@@ -1,6 +1,8 @@
 # GitHub Issues on Google Tasks
 
-This is the source code for a Google Script that uses the GitHub API to retrieve your GitHub issues and create corresponding tasks in Google Tasks.
+This is the source code for a Google Script that retrieves your GitHub issues and create corresponding tasks for them on Google Tasks. This allows you to see your Issues on the Google Tasks app/website or plan when to work on them on your Google Calendar.
+
+![Google Issues on Google Tasks](assets/image2.gif)
 
 ## Features
 
@@ -22,7 +24,7 @@ This sheet will act like a simplified "database" for you to visualized all the t
 
 2. Inside your copied spreadsheet, you will see a custom menu called `🤖 Github Issues` like this:
 
-   ![alt text](assets/image1.png)
+   ![Menu](assets/image1.png)
 
 Start by clickin on the menu `Setup -> Create setup`. You will be prompted to input the following 5 environment variables for the script to work:
 
