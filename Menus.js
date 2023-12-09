@@ -87,6 +87,10 @@ function onOpen() {
         .addSeparator()
         
         .addItem('❗ Delete all tasks', 'deleteAllTasksController')
+
+        .addSeparator()
+
+        .addItem('View on Github ↗', 'openUrl')
         .addToUi();
 }
 

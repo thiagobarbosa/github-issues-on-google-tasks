@@ -57,3 +57,9 @@ function findTaskListId(taskListName){
     return null
   }
 
+  function openUrl() {
+    var html = HtmlService.createHtmlOutput("<script>window.open('https://github.com/thiagobarbosa/github-issues-on-google-tasks', '_blank');</script>")
+        .setSandboxMode(HtmlService.SandboxMode.IFRAME)
+    SpreadsheetApp.getUi().showModalDialog(html, 'Opening Github...');
+  }
+

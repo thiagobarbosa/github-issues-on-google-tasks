@@ -54,6 +54,8 @@ If you skeptical about inputing these information on a UI, you can do it directl
    4. `Delete all tasks`
    In case you need a fresh starts, this removes all the tasks from your list. This only deletes the Google Tasks for the list you defined on the `Setup` menu (including the ones **not** created by the script). It doesn't delete or change anything on the Github side.
 
+   You will also see a menu option to open this Github repository.
+
 ## Limitations
 
 - You can only fetch up to 100 Github Issues per call. In case you have more than that, that's your cue to clean up your old issues 😂
