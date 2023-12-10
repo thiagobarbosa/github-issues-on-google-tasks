@@ -26,7 +26,7 @@ function getSheet() {
       sheet.getRange(issueRow,3).setValue(issue.html_url);
       sheet.getRange(issueRow,4).setValue(issue.updated_at);
       sheet.getRange(issueRow,5).setValue(issue.state);
-      return sheet.getRange(taskRow,6).getValue();
+      return sheet.getRange(issueRow,6).getValue();
     }
   }
   
